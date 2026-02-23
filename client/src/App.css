@@ -1,0 +1,41 @@
+/* App.css */
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.dashboard, .contracts, .tenders, .vendors, .bids, .reports, .user-profile {
+  min-height: 400px;
+  padding: 20px;
+  text-align: left;
+}
+
+.logo {
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 32px;
+  padding: 16px 0;
+  margin-bottom: 16px;
+}
+
+.site-layout .site-layout-background {
+  background: #fff;
+}
+
+.ant-layout-sider-trigger {
+  background: #001529;
+  color: #fff;
+  border: none;
+  box-shadow: inset 0px -1px 0px rgba(0, 0, 0, 0.25);
+}
